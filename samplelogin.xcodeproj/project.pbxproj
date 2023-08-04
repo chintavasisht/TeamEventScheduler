@@ -11,14 +11,38 @@
 		194D436A2A76A47D0065B80C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194D43692A76A47D0065B80C /* ContentView.swift */; };
 		194D436C2A76A4800065B80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194D436B2A76A4800065B80C /* Assets.xcassets */; };
 		194D436F2A76A4800065B80C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194D436E2A76A4800065B80C /* Preview Assets.xcassets */; };
+		194D43792A76A5330065B80C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194D43782A76A5330065B80C /* LoginView.swift */; };
+		194D437C2A76B8C80065B80C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194D437B2A76B8C80065B80C /* String.swift */; };
+		194D437E2A76C4530065B80C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194D437D2A76C4530065B80C /* SignUpView.swift */; };
+		194D43802A76DD330065B80C /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194D437F2A76DD330065B80C /* AuthView.swift */; };
+		194D43832A76EDD60065B80C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 194D43822A76EDD60065B80C /* FirebaseAuth */; };
+		194D43852A76EDD60065B80C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 194D43842A76EDD60065B80C /* FirebaseFirestore */; };
+		194D43872A76EE6F0065B80C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 194D43862A76EE6F0065B80C /* GoogleService-Info.plist */; };
+		19C264E42A7AE7F800C86F90 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C264E32A7AE7F800C86F90 /* ScheduleView.swift */; };
+		19F813CE2A796A8600112068 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F813CD2A796A8600112068 /* ProfileView.swift */; };
+		19F813D12A799FD000112068 /* TeamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F813D02A799FD000112068 /* TeamManager.swift */; };
+		19F813D32A799FF100112068 /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F813D22A799FF100112068 /* TeamModel.swift */; };
+		19F813D52A79A30800112068 /* TeamDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F813D42A79A30800112068 /* TeamDetailsView.swift */; };
+		19F813D72A79AE3900112068 /* AddTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F813D62A79AE3900112068 /* AddTeam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		194D43642A76A47D0065B80C /* samplelogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samplelogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		194D43642A76A47D0065B80C /* Teamify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teamify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		194D43672A76A47D0065B80C /* sampleloginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleloginApp.swift; sourceTree = "<group>"; };
 		194D43692A76A47D0065B80C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		194D436B2A76A4800065B80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		194D436E2A76A4800065B80C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		194D43782A76A5330065B80C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		194D437B2A76B8C80065B80C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		194D437D2A76C4530065B80C /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		194D437F2A76DD330065B80C /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		194D43862A76EE6F0065B80C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		19C264E32A7AE7F800C86F90 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		19F813CD2A796A8600112068 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		19F813D02A799FD000112068 /* TeamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamManager.swift; sourceTree = "<group>"; };
+		19F813D22A799FF100112068 /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
+		19F813D42A79A30800112068 /* TeamDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsView.swift; sourceTree = "<group>"; };
+		19F813D62A79AE3900112068 /* AddTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				194D43832A76EDD60065B80C /* FirebaseAuth in Frameworks */,
+				194D43852A76EDD60065B80C /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +69,7 @@
 		194D43652A76A47D0065B80C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				194D43642A76A47D0065B80C /* samplelogin.app */,
+				194D43642A76A47D0065B80C /* Teamify.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +77,12 @@
 		194D43662A76A47D0065B80C /* samplelogin */ = {
 			isa = PBXGroup;
 			children = (
+				194D437A2A76B8890065B80C /* Extensions */,
+				194D43772A76A4E70065B80C /* Login */,
 				194D43672A76A47D0065B80C /* sampleloginApp.swift */,
+				194D43862A76EE6F0065B80C /* GoogleService-Info.plist */,
 				194D43692A76A47D0065B80C /* ContentView.swift */,
+				19F813CC2A79671400112068 /* Profile */,
 				194D436B2A76A4800065B80C /* Assets.xcassets */,
 				194D436D2A76A4800065B80C /* Preview Content */,
 			);
@@ -65,6 +95,45 @@
 				194D436E2A76A4800065B80C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		194D43772A76A4E70065B80C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				194D43782A76A5330065B80C /* LoginView.swift */,
+				194D437D2A76C4530065B80C /* SignUpView.swift */,
+				194D437F2A76DD330065B80C /* AuthView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		194D437A2A76B8890065B80C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				194D437B2A76B8C80065B80C /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		19F813CC2A79671400112068 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				19F813CD2A796A8600112068 /* ProfileView.swift */,
+				19F813CF2A799FBD00112068 /* Team */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		19F813CF2A799FBD00112068 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				19F813D02A799FD000112068 /* TeamManager.swift */,
+				19F813D22A799FF100112068 /* TeamModel.swift */,
+				19F813D42A79A30800112068 /* TeamDetailsView.swift */,
+				19F813D62A79AE3900112068 /* AddTeam.swift */,
+				19C264E32A7AE7F800C86F90 /* ScheduleView.swift */,
+			);
+			path = Team;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,8 +152,12 @@
 			dependencies = (
 			);
 			name = samplelogin;
+			packageProductDependencies = (
+				194D43822A76EDD60065B80C /* FirebaseAuth */,
+				194D43842A76EDD60065B80C /* FirebaseFirestore */,
+			);
 			productName = samplelogin;
-			productReference = 194D43642A76A47D0065B80C /* samplelogin.app */;
+			productReference = 194D43642A76A47D0065B80C /* Teamify.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,6 +184,9 @@
 				Base,
 			);
 			mainGroup = 194D435B2A76A47D0065B80C;
+			packageReferences = (
+				194D43812A76EDD60065B80C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 194D43652A76A47D0065B80C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +203,7 @@
 			files = (
 				194D436F2A76A4800065B80C /* Preview Assets.xcassets in Resources */,
 				194D436C2A76A4800065B80C /* Assets.xcassets in Resources */,
+				194D43872A76EE6F0065B80C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +214,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				194D43792A76A5330065B80C /* LoginView.swift in Sources */,
+				194D437E2A76C4530065B80C /* SignUpView.swift in Sources */,
+				19F813D32A799FF100112068 /* TeamModel.swift in Sources */,
+				194D43802A76DD330065B80C /* AuthView.swift in Sources */,
 				194D436A2A76A47D0065B80C /* ContentView.swift in Sources */,
+				19C264E42A7AE7F800C86F90 /* ScheduleView.swift in Sources */,
+				194D437C2A76B8C80065B80C /* String.swift in Sources */,
+				19F813D72A79AE3900112068 /* AddTeam.swift in Sources */,
+				19F813D52A79A30800112068 /* TeamDetailsView.swift in Sources */,
+				19F813CE2A796A8600112068 /* ProfileView.swift in Sources */,
+				19F813D12A799FD000112068 /* TeamManager.swift in Sources */,
 				194D43682A76A47D0065B80C /* sampleloginApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +368,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.goldroger.samplelogin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Teamify;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,7 +397,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.goldroger.samplelogin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Teamify;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +426,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		194D43812A76EDD60065B80C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		194D43822A76EDD60065B80C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 194D43812A76EDD60065B80C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		194D43842A76EDD60065B80C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 194D43812A76EDD60065B80C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 194D435C2A76A47D0065B80C /* Project object */;
 }

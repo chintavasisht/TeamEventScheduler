@@ -6,16 +6,34 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct ContentView: View {
+    
+    @AppStorage("uid") var userID: String = ""
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        if userID == "" {
+            AuthView()
         }
-        .padding()
+//        else {
+//            Text("Logged in!")
+//            Button(action: {
+//                let firebaseAuth = Auth.auth()
+//                do {
+//                    try firebaseAuth.signOut()
+//                    userID = ""
+//                } catch let signOutError as NSError {
+//                    print("Error singing out: %@", signOutError)
+//                }
+//            }) {
+//                Text("Sign out")
+//            }
+//        }
+        else {
+            ProfileView()
+        }
     }
 }
 
